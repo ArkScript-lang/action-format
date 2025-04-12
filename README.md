@@ -11,6 +11,6 @@ inputs:
     required: true
 ```
 
-- **folder**: path to ArkScript files ; will be scanned for `*.ark` files (not recursively)
+- **folder**: path to ArkScript files ; will be scanned for `*.ark` files
   - eg: `example/`, `example/format`
 

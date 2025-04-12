@@ -5,9 +5,11 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+
       - uses: ArkScript-lang/action-format@master
         with:
           folder: example/format
+
       - uses: ArkScript-lang/action-format@master
         with:
           folder: example/format/
